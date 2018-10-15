@@ -1,4 +1,4 @@
-library splash_screen;
+library custom_splash_screen;
 
 import 'dart:core';
 import 'dart:async';

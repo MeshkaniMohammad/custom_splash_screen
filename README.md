@@ -1,7 +1,27 @@
-# splash_screen
+# custom_splash_screen
 
-check internet connection in splash screen and make custom splash screens for your applications.
+a flutter package for both android and ios that checks internet connection in
+splash screen and makes custom splash screens for your applications.
 
+
+### Screenshots
+
+<img src="error.png" height="300em" /> <img src="success.png" height="300em" />
+
+## Usage
+
+[Example](in source)
+
+To use this plugin :
+
+* add the dependency to your [pubspec.yaml) file.
+
+```yaml
+  dependencies:
+    flutter:
+      sdk: flutter
+    custom_splash_screen:
+```
 ## Getting Started
 
 For help getting started with Flutter, view our online [documentation](https://flutter.io/).

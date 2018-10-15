@@ -1,4 +1,4 @@
-name: splash_screen
+name: custom_splash_screen
 description: check internet connection in splash screen and make custom splash screens for your applications.
 version: 0.0.1
 author: Mohammad Meshkani <mohammad.meshkani75@gmail.com>
