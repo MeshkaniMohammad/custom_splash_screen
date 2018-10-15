@@ -1,4 +1,4 @@
-import 'package:custom_splash_screen/splash_screen.dart';
+import 'package:custom_splash_screen/custom_splash_screen.dart';
 import 'package:flutter/material.dart';
 void main() {
   runApp(new MaterialApp(
@@ -15,7 +15,7 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return new SplashScreen(
+    return new CustomSplashScreen(
       errorSplash: errorSplash(),
       backgroundColor: Colors.white,
       loadingSplash: loadingSplash(),

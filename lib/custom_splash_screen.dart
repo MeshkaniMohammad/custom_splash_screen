@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:connectivity/connectivity.dart';
 
 
-class SplashScreen extends StatefulWidget {
+class CustomSplashScreen extends StatefulWidget {
   final int seconds;
   final dynamic navigateAfterSeconds;
   final Widget errorSplash;
@@ -14,7 +14,7 @@ class SplashScreen extends StatefulWidget {
   final Color backgroundColor;
 
 
-  SplashScreen(
+  CustomSplashScreen(
       {
         @required this.backgroundColor,
         @required this.seconds,
@@ -24,12 +24,12 @@ class SplashScreen extends StatefulWidget {
       });
 
   @override
-  _SplashScreenState createState() => _SplashScreenState();
+  _CustomSplashScreenState createState() => _CustomSplashScreenState();
 }
 
 
 
-class _SplashScreenState extends State<SplashScreen> {
+class _CustomSplashScreenState extends State<CustomSplashScreen> {
 
   bool _connection = true;
 
