@@ -16,6 +16,9 @@ To use this plugin :
 
 * add the dependency to your [pubspec.yaml) file.
 
+https://pub.dev/packages/custom_splash_screen
+
+
 ```yaml
   dependencies:
     flutter:
@@ -24,7 +27,6 @@ To use this plugin :
 ```
 ## Getting Started
 
-https://pub.dev/packages/custom_splash_screen
 
 For help getting started with Flutter, view our online [documentation](https://flutter.io/).
 
