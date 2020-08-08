@@ -24,6 +24,8 @@ To use this plugin :
 ```
 ## Getting Started
 
+https://pub.dev/packages/custom_splash_screen
+
 For help getting started with Flutter, view our online [documentation](https://flutter.io/).
 
 For help on editing package code, view the [documentation](https://flutter.io/developing-packages/).
